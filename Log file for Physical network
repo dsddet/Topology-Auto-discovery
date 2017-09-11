@@ -1,0 +1,4871 @@
+
+
+
+
+User Access Verification
+
+
+
+Password: 
+
+SW1>enable
+
+Password: 
+
+SW1#terminal length 0
+
+SW1#show int
+
+Vlan1 is up, line protocol is up 
+
+  Hardware is CPU Interface, address is 001a.e29e.1a80 (bia 001a.e29e.1a80)
+
+  Internet address is 10.101.11.2/24
+
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input 00:00:00, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 3000 bits/sec, 1 packets/sec
+
+     55340 packets input, 6471755 bytes, 0 no buffer
+
+     Received 15577 broadcasts (0 IP multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 1610 ignored
+
+     272879 packets output, 19397064 bytes, 0 underruns
+
+     0 output errors, 2 interface resets
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/1 is up, line protocol is up (connected)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a81 (bia 001a.e29e.1a81)
+
+  MTU 1500 bytes, BW 100000 Kbit, DLY 100 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Full-duplex, 100Mb/s, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input 00:00:10, output 00:00:01, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     59028 packets input, 6066473 bytes, 0 no buffer
+
+     Received 22304 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 22276 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     164878 packets output, 12403883 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/2 is up, line protocol is up (connected)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a82 (bia 001a.e29e.1a82)
+
+  MTU 1500 bytes, BW 100000 Kbit, DLY 100 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Full-duplex, 100Mb/s, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input 00:03:12, output 00:00:01, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     55444 packets input, 4827799 bytes, 0 no buffer
+
+     Received 14852 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 5382 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     68972 packets output, 10113549 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/3 is up, line protocol is up (connected)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a83 (bia 001a.e29e.1a83)
+
+  MTU 1500 bytes, BW 100000 Kbit, DLY 100 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Full-duplex, 100Mb/s, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input 00:00:41, output 00:00:01, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     40966 packets input, 6533856 bytes, 0 no buffer
+
+     Received 9935 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 4377 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     143633 packets output, 11242118 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/4 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a84 (bia 001a.e29e.1a84)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/5 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a85 (bia 001a.e29e.1a85)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/6 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a86 (bia 001a.e29e.1a86)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/7 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a87 (bia 001a.e29e.1a87)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/8 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a88 (bia 001a.e29e.1a88)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/9 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a89 (bia 001a.e29e.1a89)
+
+  MTU 1500 bytes, BW 100000 Kbit, DLY 100 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     9 packets output, 1611 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/10 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a8a (bia 001a.e29e.1a8a)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/11 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a8b (bia 001a.e29e.1a8b)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/12 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a8c (bia 001a.e29e.1a8c)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/13 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a8d (bia 001a.e29e.1a8d)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/14 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a8e (bia 001a.e29e.1a8e)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/15 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a8f (bia 001a.e29e.1a8f)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/16 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a90 (bia 001a.e29e.1a90)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/17 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a91 (bia 001a.e29e.1a91)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/18 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a92 (bia 001a.e29e.1a92)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/19 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a93 (bia 001a.e29e.1a93)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/20 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a94 (bia 001a.e29e.1a94)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/21 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a95 (bia 001a.e29e.1a95)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/22 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a96 (bia 001a.e29e.1a96)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/23 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a97 (bia 001a.e29e.1a97)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 2d17h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/24 is down, line protocol is down (notconnect)
+
+  Hardware is Fast Ethernet, address is 001a.e29e.1a98 (bia 001a.e29e.1a98)
+
+  MTU 1500 bytes, BW 100000 Kbit, DLY 100 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 100BaseTX
+
+  input flow-control is unsupported output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input 2d06h, output 2d06h, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     815 packets input, 66330 bytes, 0 no buffer
+
+     Received 806 broadcasts (0 multicast)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 201 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     352 packets output, 26432 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+SW1#show mac-
+
+          Mac Address Table
+
+-------------------------------------------
+
+
+
+Vlan    Mac Address       Type        Ports
+
+----    -----------       --------    -----
+
+ All    001a.e29e.1a80    STATIC      CPU
+
+ All    0100.0ccc.cccc    STATIC      CPU
+
+ All    0100.0ccc.cccd    STATIC      CPU
+
+ All    0100.0cdd.dddd    STATIC      CPU
+
+   1    0016.c7bf.c98b    DYNAMIC     Fa0/1
+
+   1    0022.19e7.2e0c    DYNAMIC     Fa0/2
+
+   1    aca0.1650.9b01    DYNAMIC     Fa0/3
+
+   1    aca0.1650.9b40    DYNAMIC     Fa0/3
+
+Total Mac Addresses for this criterion: 8
+
+SW1#
+
+
+
+User Access Verification
+
+
+
+Password: 
+
+SW2>enable
+
+Password: 
+
+SW2#terminal length 0
+
+SW2#show int
+
+Vlan1 is up, line protocol is up 
+
+  Hardware is EtherSVI, address is aca0.1650.9b40 (bia aca0.1650.9b40)
+
+  Internet address is 10.101.11.3/24
+
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive not supported
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input 00:00:00, output 00:00:00, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 1/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     30151 packets input, 2660998 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 IP multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     17689 packets output, 3877594 bytes, 0 underruns
+
+     0 output errors, 0 interface resets
+
+     0 output buffer failures, 0 output buffers swapped out
+
+Vlan3 is down, line protocol is down 
+
+  Hardware is EtherSVI, address is aca0.1650.9b42 (bia aca0.1650.9b42)
+
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive not supported
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 IP multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 interface resets
+
+     0 output buffer failures, 0 output buffers swapped out
+
+Vlan10 is up, line protocol is down 
+
+  Hardware is EtherSVI, address is aca0.1650.9b41 (bia aca0.1650.9b41)
+
+  Internet address is 10.20.1.202/24
+
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive not supported
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 22:20:36, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 IP multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     98 packets output, 6281 bytes, 0 underruns
+
+     0 output errors, 0 interface resets
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/1 is up, line protocol is up (connected) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b01 (bia aca0.1650.9b01)
+
+  Description: IPSW1-Port1
+
+  MTU 1500 bytes, BW 100000 Kbit, DLY 100 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Full-duplex, 100Mb/s, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input 00:00:00, output 00:00:03, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     143136 packets input, 11201541 bytes, 0 no buffer
+
+     Received 114747 broadcasts (112060 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 112060 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     40049 packets output, 6465195 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/2 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b02 (bia aca0.1650.9b02)
+
+  Description: "IPSW2 to IPSW4 inter-rack"
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/3 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b03 (bia aca0.1650.9b03)
+
+  Description: "VPF5_G6 eth3"
+
+  MTU 1500 bytes, BW 100000 Kbit, DLY 100 usec, 
+
+     reliability 253/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 02:21:11, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     2217 packets input, 330343 bytes, 0 no buffer
+
+     Received 7 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     1 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     59296 packets output, 4518416 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/4 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b04 (bia aca0.1650.9b04)
+
+  Description: "VPF6_G6 eth3"
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/5 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b05 (bia aca0.1650.9b05)
+
+  Description: "VPF7_G6 eth3"
+
+  MTU 1500 bytes, BW 100000 Kbit, DLY 100 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output 22:20:38, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     1 packets input, 64 bytes, 0 no buffer
+
+     Received 1 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     1217 packets output, 92162 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/6 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b06 (bia aca0.1650.9b06)
+
+  Description: "VPF8_G6 eth3"
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/7 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b07 (bia aca0.1650.9b07)
+
+  Description: "VPF9_G6 eth3"
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/8 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b08 (bia aca0.1650.9b08)
+
+  Description: eaf1 eth2
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/9 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b09 (bia aca0.1650.9b09)
+
+  Description: eaf2 eth2
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/10 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b0a (bia aca0.1650.9b0a)
+
+  Description: eaf3 eth2
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/11 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b0b (bia aca0.1650.9b0b)
+
+  Description: "EAF1_New eth2 - old VNS1"
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/12 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b0c (bia aca0.1650.9b0c)
+
+  Description: "EAF2_New eth2 - old VNS2"
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/13 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b0d (bia aca0.1650.9b0d)
+
+  Description: T5120-2 Net2
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/14 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b0e (bia aca0.1650.9b0e)
+
+  Description: "EAF3_New eth2 - old eaftb"
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/15 is administratively down, line protocol is down (disabled) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b0f (bia aca0.1650.9b0f)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/16 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b10 (bia aca0.1650.9b10)
+
+  Description: Inbound1-port16
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/17 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b11 (bia aca0.1650.9b11)
+
+  Description: outbound2-port16
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/18 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b12 (bia aca0.1650.9b12)
+
+  Description: vpf2-ilo
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/19 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b13 (bia aca0.1650.9b13)
+
+  Description: vpf4-ilo
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/20 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b14 (bia aca0.1650.9b14)
+
+  Description: "VPF2_New ilo"
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/21 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b15 (bia aca0.1650.9b15)
+
+  Description: eaf3-ilo
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/22 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b16 (bia aca0.1650.9b16)
+
+  Description: "EAF2_New ilo - old VNS2"
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/23 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b17 (bia aca0.1650.9b17)
+
+  Description: "VPF4_New ilo"
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/24 is administratively down, line protocol is down (disabled) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b18 (bia aca0.1650.9b18)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/25 is administratively down, line protocol is down (disabled) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b19 (bia aca0.1650.9b19)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/26 is administratively down, line protocol is down (disabled) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b1a (bia aca0.1650.9b1a)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/27 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b1b (bia aca0.1650.9b1b)
+
+  Description: monitoring-ilo
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/28 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b1c (bia aca0.1650.9b1c)
+
+  Description: "NMSR1_New ilo"
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/29 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b1d (bia aca0.1650.9b1d)
+
+  Description: "NMSR1_New eth3"
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/30 is administratively down, line protocol is down (disabled) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b1e (bia aca0.1650.9b1e)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/31 is administratively down, line protocol is down (disabled) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b1f (bia aca0.1650.9b1f)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/32 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b20 (bia aca0.1650.9b20)
+
+  Description: monitoring-eth2
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/33 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b21 (bia aca0.1650.9b21)
+
+  Description: MS2
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/34 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b22 (bia aca0.1650.9b22)
+
+  Description: UPS2-mgt
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/35 is administratively down, line protocol is down (disabled) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b23 (bia aca0.1650.9b23)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/36 is administratively down, line protocol is down (disabled) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b24 (bia aca0.1650.9b24)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/37 is administratively down, line protocol is down (disabled) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b25 (bia aca0.1650.9b25)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/38 is administratively down, line protocol is down (disabled) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b26 (bia aca0.1650.9b26)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/39 is administratively down, line protocol is down (disabled) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b27 (bia aca0.1650.9b27)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/40 is administratively down, line protocol is down (disabled) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b28 (bia aca0.1650.9b28)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/41 is administratively down, line protocol is down (disabled) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b29 (bia aca0.1650.9b29)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/42 is administratively down, line protocol is down (disabled) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b2a (bia aca0.1650.9b2a)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/43 is administratively down, line protocol is down (disabled) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b2b (bia aca0.1650.9b2b)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/44 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b2c (bia aca0.1650.9b2c)
+
+  Description: "VPF1_New eth3"
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/45 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b2d (bia aca0.1650.9b2d)
+
+  Description: "VPF2_New eth3"
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive not set
+
+  Auto-duplex, Auto-speed, link type is auto, media type is Not Present
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/46 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b2e (bia aca0.1650.9b2e)
+
+  Description: "VPF3_New eth3"
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive not set
+
+  Auto-duplex, Auto-speed, link type is auto, media type is Not Present
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/47 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b2f (bia aca0.1650.9b2f)
+
+  Description: "VPF4_New eth3"
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive not set
+
+  Auto-duplex, Auto-speed, link type is auto, media type is Not Present
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 1 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+GigabitEthernet0/48 is down, line protocol is down (notconnect) 
+
+  Hardware is Gigabit Ethernet, address is aca0.1650.9b30 (bia aca0.1650.9b30)
+
+  MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive not set
+
+  Auto-duplex, Auto-speed, link type is auto, media type is Not Present
+
+  input flow-control is off, output flow-control is unsupported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 3 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 PAUSE output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+SW2#show mac-
+
+          Mac Address Table
+
+-------------------------------------------
+
+
+
+Vlan    Mac Address       Type        Ports
+
+----    -----------       --------    -----
+
+ All    0100.0ccc.cccc    STATIC      CPU
+
+ All    0100.0ccc.cccd    STATIC      CPU
+
+ All    0180.c200.0000    STATIC      CPU
+
+ All    0180.c200.0001    STATIC      CPU
+
+ All    0180.c200.0002    STATIC      CPU
+
+ All    0180.c200.0003    STATIC      CPU
+
+ All    0180.c200.0004    STATIC      CPU
+
+ All    0180.c200.0005    STATIC      CPU
+
+ All    0180.c200.0006    STATIC      CPU
+
+ All    0180.c200.0007    STATIC      CPU
+
+ All    0180.c200.0008    STATIC      CPU
+
+ All    0180.c200.0009    STATIC      CPU
+
+ All    0180.c200.000a    STATIC      CPU
+
+ All    0180.c200.000b    STATIC      CPU
+
+ All    0180.c200.000c    STATIC      CPU
+
+ All    0180.c200.000d    STATIC      CPU
+
+ All    0180.c200.000e    STATIC      CPU
+
+ All    0180.c200.000f    STATIC      CPU
+
+ All    0180.c200.0010    STATIC      CPU
+
+ All    ffff.ffff.ffff    STATIC      CPU
+
+   1    0016.c7bf.c98b    DYNAMIC     Gi0/1
+
+   1    001a.e29e.1a80    DYNAMIC     Gi0/1
+
+   1    001a.e29e.1a83    DYNAMIC     Gi0/1
+
+   1    0022.19e7.2e0c    DYNAMIC     Gi0/1
+
+Total Mac Addresses for this criterion: 24
+
+SW2#
+
+
+
+User Access Verification
+
+
+
+Password: 
+
+R1>enable
+
+Password: 
+
+R1#terminal length 0
+
+R1#show ip route
+
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+
+       o - ODR, P - periodic downloaded static route
+
+
+
+Gateway of last resort is not set
+
+
+
+     3.0.0.0/24 is subnetted, 1 subnets
+
+S       3.3.3.0 is directly connected, FastEthernet0/0
+
+     10.0.0.0/24 is subnetted, 1 subnets
+
+C       10.101.11.0 is directly connected, FastEthernet0/1
+
+C    192.168.23.0/24 is directly connected, FastEthernet0/0
+
+R1#show int
+
+FastEthernet0/0 is up, line protocol is up 
+
+  Hardware is Gt96k FE, address is 0016.c7bf.c98a (bia 0016.c7bf.c98a)
+
+  Internet address is 192.168.23.1/24
+
+  MTU 1500 bytes, BW 100000 Kbit, DLY 100 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Full-duplex, 100Mb/s, 100BaseTX/FX
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input 02:18:34, output 00:00:05, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     4638 packets input, 635136 bytes
+
+     Received 512 broadcasts, 0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog
+
+     0 input packets with dribble condition detected
+
+     35816 packets output, 3178006 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 11 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet0/1 is up, line protocol is up 
+
+  Hardware is Gt96k FE, address is 0016.c7bf.c98b (bia 0016.c7bf.c98b)
+
+  Internet address is 10.101.11.1/24
+
+  MTU 1500 bytes, BW 100000 Kbit, DLY 100 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Full-duplex, 100Mb/s, 100BaseTX/FX
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input 00:00:00, output 00:00:00, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 2/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 1000 bits/sec, 2 packets/sec
+
+  5 minute output rate 1000 bits/sec, 2 packets/sec
+
+     45892 packets input, 4194737 bytes
+
+     Received 23205 broadcasts, 0 runts, 0 giants, 0 throttles
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog
+
+     0 input packets with dribble condition detected
+
+     59172 packets output, 5836954 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 5 interface resets
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier
+
+     0 output buffer failures, 0 output buffers swapped out
+
+R1#
+
+-----------------------------------------------------------------------
+
+Cisco Configuration Professional (Cisco CP) is installed on this device. 
+
+This feature requires the one-time use of the username "cisco" with the 
+
+password "cisco". These default credentials have a privilege level of 15.
+
+ 
+
+YOU MUST USE CISCO CP or the CISCO IOS CLI TO CHANGE THESE  
+
+PUBLICLY-KNOWN CREDENTIALS
+
+
+
+Here are the Cisco IOS commands.
+
+
+
+username <myuser>  privilege 15 secret 0 <mypassword>
+
+no username cisco
+
+
+
+Replace <myuser> and <mypassword> with the username and password you want 
+
+to use. 
+
+
+
+IF YOU DO NOT CHANGE THE PUBLICLY-KNOWN CREDENTIALS, YOU WILL 
+
+NOT BE ABLE TO LOG INTO THE DEVICE AGAIN AFTER YOU HAVE LOGGED OFF.
+
+ 
+
+For more information about Cisco CP please follow the instructions in the 
+
+QUICK START GUIDE for your router or go to http://www.cisco.com/go/ciscocp 
+
+-----------------------------------------------------------------------
+
+
+
+
+
+User Access Verification
+
+
+
+Password: 
+
+% Password expiration warning.
+
+-----------------------------------------------------------------------
+
+ 
+
+Cisco Configuration Professional (Cisco CP) is installed on this device 
+
+and it provides the default username "cisco" for  one-time use. If you have 
+
+already used the username "cisco" to login to the router and your IOS image 
+
+supports the "one-time" user option, then this username has already expired. 
+
+You will not be able to login to the router with this username after you exit 
+
+this session.
+
+ 
+
+It is strongly suggested that you create a new username with a privilege level 
+
+of 15 using the following command.
+
+ 
+
+username <myuser> privilege 15 secret 0 <mypassword>
+
+ 
+
+Replace <myuser> and <mypassword> with the username and password you 
+
+want to use.
+
+ 
+
+-----------------------------------------------------------------------
+
+
+
+R2#enable
+
+R2#cisco
+
+Translating "cisco"
+
+
+
+% Bad IP address or host name
+
+% Unknown command or computer name, or unable to find computer address
+
+R2#terminal length 0
+
+R2#show ip route
+
+Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+
+       o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+
+       + - replicated route, % - next hop override
+
+
+
+Gateway of last resort is not set
+
+
+
+      10.0.0.0/24 is subnetted, 1 subnets
+
+S        10.101.11.0 [1/0] via 192.168.23.1
+
+      192.168.23.0/24 is variably subnetted, 2 subnets, 2 masks
+
+C        192.168.23.0/24 is directly connected, FastEthernet4
+
+L        192.168.23.2/32 is directly connected, FastEthernet4
+
+R2#show int
+
+FastEthernet0 is down, line protocol is down 
+
+  Hardware is Fast Ethernet, address is 24e9.b3d9.8a94 (bia 24e9.b3d9.8a94)
+
+  MTU 1500 bytes, BW 100000 Kbit/sec, DLY 100 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles 
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 unknown protocol drops
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 pause output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet1 is down, line protocol is down 
+
+  Hardware is Fast Ethernet, address is 24e9.b3d9.8a95 (bia 24e9.b3d9.8a95)
+
+  MTU 1500 bytes, BW 100000 Kbit/sec, DLY 100 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles 
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 unknown protocol drops
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 pause output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet2 is down, line protocol is down 
+
+  Hardware is Fast Ethernet, address is 24e9.b3d9.8a96 (bia 24e9.b3d9.8a96)
+
+  MTU 1500 bytes, BW 100000 Kbit/sec, DLY 100 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles 
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 unknown protocol drops
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 pause output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet3 is down, line protocol is down 
+
+  Hardware is Fast Ethernet, address is 24e9.b3d9.8a97 (bia 24e9.b3d9.8a97)
+
+  MTU 1500 bytes, BW 100000 Kbit/sec, DLY 100 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Auto-duplex, Auto-speed
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 multicasts)
+
+     0 runts, 0 giants, 0 throttles 
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog, 0 multicast, 0 pause input
+
+     0 input packets with dribble condition detected
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     0 unknown protocol drops
+
+     0 babbles, 0 late collision, 0 deferred
+
+     0 lost carrier, 0 no carrier, 0 pause output
+
+     0 output buffer failures, 0 output buffers swapped out
+
+FastEthernet4 is up, line protocol is up 
+
+  Hardware is PQII_PRO_UEC, address is 24e9.b3d9.8a98 (bia 24e9.b3d9.8a98)
+
+  Internet address is 192.168.23.2/24
+
+  MTU 1500 bytes, BW 100000 Kbit/sec, DLY 100 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive set (10 sec)
+
+  Full-duplex, 100Mb/s, 100BaseTX/FX
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input 00:00:00, output 00:00:00, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 1/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 1000 bits/sec, 1 packets/sec
+
+  5 minute output rate 1000 bits/sec, 1 packets/sec
+
+     11922 packets input, 1852275 bytes
+
+     Received 7615 broadcasts (0 IP multicasts)
+
+     0 runts, 0 giants, 0 throttles 
+
+     1 input errors, 1 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 watchdog
+
+     0 input packets with dribble condition detected
+
+     5984 packets output, 896324 bytes, 0 underruns
+
+     0 output errors, 0 collisions, 2 interface resets
+
+     3276 unknown protocol drops
+
+     0 babbles, 0 late collision, 0 deferred
+
+     6 lost carrier, 0 no carrier
+
+     0 output buffer failures, 0 output buffers swapped out
+
+Vlan1 is down, line protocol is down 
+
+  Hardware is EtherSVI, address is 24e9.b3d9.8a94 (bia 24e9.b3d9.8a94)
+
+  Description: $ETH_LAN$
+
+  MTU 1500 bytes, BW 100000 Kbit/sec, DLY 100 usec, 
+
+     reliability 255/255, txload 1/255, rxload 1/255
+
+  Encapsulation ARPA, loopback not set
+
+  Keepalive not supported 
+
+  ARP type: ARPA, ARP Timeout 04:00:00
+
+  Last input never, output never, output hang never
+
+  Last clearing of "show interface" counters never
+
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+
+  Queueing strategy: fifo
+
+  Output queue: 0/40 (size/max)
+
+  5 minute input rate 0 bits/sec, 0 packets/sec
+
+  5 minute output rate 0 bits/sec, 0 packets/sec
+
+     0 packets input, 0 bytes, 0 no buffer
+
+     Received 0 broadcasts (0 IP multicasts)
+
+     0 runts, 0 giants, 0 throttles 
+
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+
+     0 packets output, 0 bytes, 0 underruns
+
+     0 output errors, 1 interface resets
+
+     0 unknown protocol drops
+
+     0 output buffer failures, 0 output buffers swapped out
+
+R2#
